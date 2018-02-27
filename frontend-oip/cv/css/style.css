@@ -10,28 +10,47 @@
   margin:auto 33%;
   padding-top: 2%;
 }
-.main-part p  {
-  margin: 20px auto;
-}
-/* Why part */
-.why ul{
- padding:10px 8%;
-}
-.why li{
- margin:5px 0px;
+.main-part h2{
+  margin-bottom: 5%;
 }
 
 /* About part */
 .img1 {
   height: 200px;
-  width: 200px;
-  margin:auto 33%;
+  margin:5% 33%;
+}
+.img1 img{
+  height: 100%;
   border: 1px solid #0056d3; 
 }
-.line-style{
-  border-bottom: 1px solid #c6c5c4;
-  padding: 20px 0;
+.divider{
+  height: 1px;
+  margin: 5% auto;
+  background-color: RGB(0, 0, 0, 0.2);
+  
 }
-/* .wrapper {
-    padding: 30px;
-}*/
+
+/* Why part */
+.why ul{
+  padding-left:10%;
+ 
+}
+.why li{
+ margin-top:2%; 
+ padding-left:2%;
+}
+
+/* Phone part*/
+
+.phone{
+  margin-bottom:5%;
+}
+
+/* vk part*/
+.left-shift{
+  padding-left:10%;
+}
+/* Bottom*/
+.bottom-place{
+  margin: 60% auto;
+}
