@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial;
+    text-align: left;
+    
+  /*  font-size: 10px;*/
+}
+
+/* Wrapper */
+.wrapper{
+  margin: auto 10%;
+/*   background-color: black; */
+}
+/* Header */
+/* Logo */
+/* Top Menu */
+.line-style li{
+  list-style: none;
+  display: inline-block;
+}
+/* Main */
+/* Left Menu */
+/* Content */
+/* Img */
+/* Text */
+/* Footer */
+.footer{
+  
+}
