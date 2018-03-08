@@ -3,28 +3,165 @@
     padding: 0;
     font-family:Arial;
     text-align: left;
-    
-  /*  font-size: 10px;*/
+    font-size: 14px;
 }
 
 /* Wrapper */
 .wrapper{
   margin: auto 10%;
+  padding: 0 3%;
+  border-left: 2px solid rgba(180, 178, 179, 0.4);
+  border-right: 2px solid rgba(180, 178, 179, 0.4);
+
 /*   background-color: black; */
 }
 /* Header */
+
 /* Logo */
-/* Top Menu */
-.line-style li{
-  list-style: none;
-  display: inline-block;
+.logo a{
+  display: block;
+  padding: 10px 0px;
+  font-size: 32px;
+  color: black;
+  font-weight:bold;
+  text-decoration:none;
+
 }
-/* Main */
-/* Left Menu */
-/* Content */
-/* Img */
-/* Text */
-/* Footer */
-.footer{
+.logo a:visited {
+    color: black; 
+}
+/* Top Menu */
+.top-menu{
   
+}
+.top-menu ul{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#484e52,#34312d);
+  list-style: none;
+}
+.top-menu li{
+  display: inline-block;
+  text-align: center;
+ 
+}
+
+.top-menu a{
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+ 
+}
+.top-menu a:hover{
+  background: linear-gradient(#34312d, #171316);
+  padding: 9px;
+  border-left: 1px solid #b4b2b3;
+  border-right: 1px solid #b4b2b3;
+}
+
+/* Main */
+
+
+.main {
+  display: flex;
+  padding-top:3%;
+}
+.left-menu{
+  
+ display: inline-block;
+ width:30%;
+ 
+}
+.left-menu ul{
+  list-style: none;
+  vertical-align:top; 
+  width:85%;
+  border-top: 1px solid rgba(180, 178, 179, 0.4);
+  border-left: 1px solid rgba(180, 178, 179, 0.4);
+  border-right: 1px solid rgba(180, 178, 179, 0.4);
+}
+.left-menu li a{
+  padding: 10px 10px 10px 25px;
+  text-decoration: none;
+  color: #7e7f83;
+  display: block;
+  border-bottom: 1px solid rgba(180, 178, 179, 0.4);
+  
+ 
+}
+
+.left-menu li a:hover{
+  padding: 10px 10px 10px 35px;
+  color: black;
+  background:rgba(180, 178, 179, 0.15);
+ 
+}
+.content{
+  display: inline-block;
+  width:70%;
+  
+} 
+/* Img */
+.illustration{
+  border:1px solid rgba(180, 178, 179, 0.4);
+}
+.illustration img{
+  width:70%;
+  margin: auto 15%;
+  
+}
+/* Text */
+.text{
+  padding: 3%; 
+}
+
+/* способ 2
+.main{
+  display: table;
+}
+.left-menu{
+  
+ display: table-cell;
+}
+
+.content{
+  
+  display: table-cell;
+}
+*/
+
+/* Footer */
+
+.footer-menu ul{
+  background: rgba(180, 178, 179, 0.4);
+  list-style: none;
+}
+.footer-menu li{
+  display: inline-block;
+  text-align: center;
+ 
+}
+.copy{
+  float:right;
+  display: inline-block;
+ 
+}
+.copy p{
+  padding: 10px;
+  
+}
+
+.footer-menu a{
+  color: black;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+ 
+}
+.footer-menu a:hover{
+  text-decoration: underline;
+}
+.clearfix{
+  clear: both;
 }
