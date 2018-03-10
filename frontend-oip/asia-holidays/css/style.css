@@ -1,0 +1,83 @@
+*{
+  padding:0;
+  margin:0;
+  font-family:sans-serif;
+}
+
+body{
+  background-color:black;
+  color:white;
+}
+
+.wrapper{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 3%;
+  padding-left: 8%;
+  background-image:url(../img/background-black.png);
+  background-repeat: repeat-y;
+/*   background-position:top; */
+   background-position:center; 
+  
+}
+
+
+.logo{
+  background-image:url(../img/palm2.png); 
+  background-repeat: no-repeat;
+  background-position: 85% 15%;
+  padding-top: 90px;
+  padding-bottom: 15px;
+  width: 30%;
+  float:left;
+
+}
+.logo h2{
+  font-size:11px;
+  padding-left: 75px;
+  letter-spacing: 0.01px;
+  display:block;
+}
+.contacts{
+  padding-top: 100px;
+  padding-left:70%;
+  font-size:11px;
+  
+}
+.contacts h3{
+  font-size:11px;
+}
+
+.contacts a{
+  color:white;
+  text-decoration: none;
+}
+.clearfix{
+  clear:both;
+}
+.gallery ul{
+  text-decoration:none;
+  list-style:none;
+  width:100%;
+  word-spacing: 1em;
+  margin-bottom:15%;
+}
+.gallery li{
+  display:inline-block;
+  margin-bottom:5%;
+}
+
+.gallery ul p{
+  display:block;
+  text-align: center;
+  word-spacing: normal;
+}
+.gallery li img{
+  border: 2px solid gray;
+
+}
+
+footer p{
+    text-align: center;
+
+}
