@@ -37,7 +37,7 @@
 .top-menu ul{
   margin: 0;
   padding: 0;
-  background: linear-gradient(#484e52,#34312d);
+  background: #484e52;
   list-style: none;
 }
 .top-menu li{
@@ -54,7 +54,7 @@
  
 }
 .top-menu a:hover{
-  background: linear-gradient(#34312d, #171316);
+  background: black;
   padding: 9px;
   border-left: 1px solid #b4b2b3;
   border-right: 1px solid #b4b2b3;
@@ -64,12 +64,12 @@
 
 
 .main {
-  display: flex;
+  
   padding-top:3%;
 }
 .left-menu{
   
- display: inline-block;
+ float:left;
  width:30%;
  
 }
@@ -98,7 +98,7 @@
  
 }
 .content{
-  display: inline-block;
+   display: table-cell;
   width:70%;
   
 } 
