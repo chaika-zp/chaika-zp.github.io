@@ -28,9 +28,12 @@ wrapper {
   width:300px;
 }
 
-.country img, .country span{
+.country-block img, .country span{
   display: block;
 }
 .country img{
   width: 100%;
+}
+.country-block {
+  text-align: center;
 }
