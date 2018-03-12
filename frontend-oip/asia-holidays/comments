@@ -1,0 +1,17 @@
+задавать задний фон для wrapper:
+...
+<div class="wrapper">
+  <div class="content">
+    
+  </div>
+</div>
+...
+
+css:
+wrapper {
+  background-image:url(../);
+  -repeat:no repeat;
+  background: cover;
+  height: 100vg;
+  -position:center;
+}
