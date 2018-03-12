@@ -5,7 +5,9 @@
 }
 
 body{
-  background-color:black;
+  /*background-color:black;*/
+  background-image:url(../img/background-black.png);
+  background-repeat: none;
   color:white;
 }
 
@@ -15,8 +17,8 @@ body{
   padding-top: 3%;
   padding-left: 8%;
   padding-right: 8%;
-  background-image:url(../img/background-black.png);
-  background-repeat: repeat-y;
+ /* background-image:url(../img/background-black.png);
+  background-repeat: repeat-y;*/
 /*   background-position:top; */
    background-position:center; 
   
